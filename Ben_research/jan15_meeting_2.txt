@@ -1,0 +1,39 @@
+Last login: Thu Jan 15 13:03:52 on ttys000
+(base) pisupati@Akhilas-MacBook-Pro-824 ~ % cd Documents
+(base) pisupati@Akhilas-MacBook-Pro-824 Documents % cd Ben_research
+(base) pisupati@Akhilas-MacBook-Pro-824 Ben_research % scp test_RAdec.py akhila24@kix.astro.washington.edu:akhila/
+test_RAdec.py                                 100%  331    66.5KB/s   00:00    
+(base) pisupati@Akhilas-MacBook-Pro-824 Ben_research % python test_RAdec.py
+ColDefs(
+    name = 'X'; format = 'D'
+    name = 'Y'; format = 'D'
+    name = 'RA'; format = 'D'
+    name = 'DEC'; format = 'D'
+    name = 'F606W_RATE'; format = 'E'
+    name = 'F606W_RATERR'; format = 'E'
+    name = 'F606W_VEGA'; format = 'E'
+    name = 'F606W_STD'; format = 'E'
+    name = 'F606W_ERR'; format = 'E'
+    name = 'F606W_CHI'; format = 'E'
+    name = 'F606W_SNR'; format = 'E'
+    name = 'F606W_SHARP'; format = 'E'
+    name = 'F606W_ROUND'; format = 'E'
+    name = 'F606W_CROWD'; format = 'E'
+    name = 'F606W_FLAG'; format = 'I'
+    name = 'F814W_RATE'; format = 'E'
+    name = 'F814W_RATERR'; format = 'E'
+    name = 'F814W_VEGA'; format = 'E'
+    name = 'F814W_STD'; format = 'E'
+    name = 'F814W_ERR'; format = 'E'
+    name = 'F814W_CHI'; format = 'E'
+    name = 'F814W_SNR'; format = 'E'
+    name = 'F814W_SHARP'; format = 'E'
+    name = 'F814W_ROUND'; format = 'E'
+    name = 'F814W_CROWD'; format = 'E'
+    name = 'F814W_FLAG'; format = 'I'
+)
+2026-01-15 13:12:57.445 python[25856:5326465] +[IMKClient subclass]: chose IMKClient_Legacy
+2026-01-15 13:12:57.445 python[25856:5326465] +[IMKInputSession subclass]: chose IMKInputSession_Legacy
+
+2026-01-15 14:22:39.871 python[25856:5326465] AdjustToIronwoodHotKeyChange - CG (hotmod:1) HotKey : hotKey enabled = 1, keyChar=0xfffbffff, virtKey=0x40000, flags=0x0 
+

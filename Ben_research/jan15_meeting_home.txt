@@ -1,0 +1,19 @@
+Last login: Thu Jan 15 13:08:32 on ttys001
+(base) pisupati@Akhilas-MacBook-Pro-824 ~ % scp akhila24@kix.astro.washington.edu:/astro/users/benw1/phat/ben/P2/m31_go16730_1/data/16730_N205-4163ne-2497/proc_default/*.png .
+zsh: no matches found: akhila24@kix.astro.washington.edu:/astro/users/benw1/phat/ben/P2/m31_go16730_1/data/16730_N205-4163ne-2497/proc_default/*.png
+(base) pisupati@Akhilas-MacBook-Pro-824 ~ % scp akhila24@kix.astro.washington.edu:/astro/users/benw1/phat/ben/P2/m31_go16730_1/data/16730_N205-4163ne-2497/proc_default/unweighted.png .
+unweighted.png                                100%   36KB 558.3KB/s   00:00    
+(base) pisupati@Akhilas-MacBook-Pro-824 ~ % display unweighted.png
+zsh: command not found: display
+(base) pisupati@Akhilas-MacBook-Pro-824 ~ % exit
+
+
+
+
+
+
+
+
+
+
+
