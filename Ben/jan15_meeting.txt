@@ -1,0 +1,245 @@
+Last login: Wed Jan 14 16:50:57 on console
+(base) pisupati@Akhilas-MacBook-Pro-824 ~ % ssh akhila24@ssh akhila24@kix.astro.washington.edu
+ssh: Could not resolve hostname ssh: nodename nor servname provided, or not known
+(base) pisupati@Akhilas-MacBook-Pro-824 ~ % ssh akhila24@kix.astro.washington.edu
+Last login: Fri Dec  5 14:04:41 2025 from 10.19.89.238
+[akhila24@kix ~]$ ls
+16730_N205-4163ne-2497.gst.fits  akhila
+[akhila24@kix ~]$ mv 16730_N205-4163ne-2497.gst.fits:akhila/
+mv: missing destination file operand after '16730_N205-4163ne-2497.gst.fits:akhila/'
+Try 'mv --help' for more information.
+[akhila24@kix ~]$ mv 16730_N205-4163ne-2497.gst.fits akhila/
+[akhila24@kix ~]$ python test_RAdec.py
+python: can't open file '/astro/users/akhila24/test_RAdec.py': [Errno 2] No such file or directory
+[akhila24@kix ~]$ source /astro/apps9/opt/pyraf/conda/etc/profile.d/conda.csh
+conda activate /astro/apps9/opt/pyraf/conda/envs/pyraf
+bash: setenv: command not found...
+bash: setenv: command not found...
+bash: setenv: command not found...
+bash: setenv: command not found...
+-bash: /astro/apps9/opt/pyraf/conda/etc/profile.d/conda.csh: line 32: syntax error near unexpected token `"${1}"'
+-bash: /astro/apps9/opt/pyraf/conda/etc/profile.d/conda.csh: line 32: `    switch ( "${1}" )'
+bash: conda: command not found...
+Install package 'conda' to provide command 'conda'? [N/y] y
+
+
+ * Waiting in queue... 
+ * Loading list of packages.... 
+The following packages have to be installed:
+ conda-4.14.0-3.el9.noarch	Cross-platform, Python-agnostic binary package manager
+ picosat-libs-965-26.el9.x86_64	A SAT solver library
+ python3-cffi-1.14.5-5.el9.x86_64	Foreign Function Interface for Python 3 to call C code
+ python3-conda-4.14.0-3.el9.noarch	Cross-platform, Python-agnostic binary package manager
+ python3-conda-package-handling-1.7.3-3.el9.x86_64	Create and extract conda packages of various formats
+ python3-cpuinfo-8.0.0-1.el9.noarch	Getting CPU info
+ python3-cryptography-36.0.1-5.el9_6.x86_64	PyCA's cryptography library
+ python3-cytoolz-0.11.2-1.el9.x86_64	Cython implementation of the toolz package
+ python3-frozendict-1.2-21.el9.noarch	An immutable dictionary
+ python3-ply-3.11-14.el9.0.1.noarch	Python Lex-Yacc
+ python3-pyOpenSSL-21.0.0-1.el9.noarch	Python 3 wrapper module around the OpenSSL library
+ python3-pycosat-0.6.3-14.el9.x86_64	Python bindings to picosat (a SAT solver)
+ python3-pycparser-2.20-6.el9.noarch	C parser and AST generator written in Python
+ python3-ruamel-yaml-0.16.6-7.el9.1.0.1.x86_64	YAML 1.2 loader/dumper package for Python
+ python3-ruamel-yaml-clib-0.2.7-3.el9.x86_64	C version of reader, parser and emitter for ruamel.yaml derived from libyaml
+ python3-toolz-0.11.2-2.el9.noarch	A functional standard library for Python 3.9
+ python3-tqdm-4.65.0-2.el9.noarch	Fast, Extensible Progress Meter
+Proceed with changes? [N/y] y
+
+
+ * Waiting in queue... 
+ * Waiting for authentication... Failed to install packages: Failed to obtain authentication.
+
+[akhila24@kix ~]$ source /astro/apps9/opt/pyraf/conda/etc/profile.d/conda.csh
+bash: setenv: command not found...
+bash: setenv: command not found...
+bash: setenv: command not found...
+bash: setenv: command not found...
+-bash: /astro/apps9/opt/pyraf/conda/etc/profile.d/conda.csh: line 32: syntax error near unexpected token `"${1}"'
+-bash: /astro/apps9/opt/pyraf/conda/etc/profile.d/conda.csh: line 32: `    switch ( "${1}" )'
+[akhila24@kix ~]$ cd /astro/store/phat
+[akhila24@kix phat]$ cp /astro/users/benw1/phat/ben/P2/m31_go16730_1/data/16730_N205-4163ne-2497/proc_default/
+cp: missing destination file operand after '/astro/users/benw1/phat/ben/P2/m31_go16730_1/data/16730_N205-4163ne-2497/proc_default/'
+Try 'cp --help' for more information.
+[akhila24@kix phat]$ cd /astro/users/benw1/phat/ben/P2/m31_go16730_1/data/16730_N205-4163ne-2497/proc_default/
+[akhila24@kix proc_default]$ ls
+16730_N205-4163ne-2497.gst.fake.fits
+16730_N205-4163ne-2497.gst.fits
+16730_N205-4163ne-2497.phot.columns
+16730_N205-4163ne-2497.phot.fake.fits
+16730_N205-4163ne-2497.phot.fake_1
+16730_N205-4163ne-2497.phot.fake_10
+16730_N205-4163ne-2497.phot.fake_11
+16730_N205-4163ne-2497.phot.fake_12
+16730_N205-4163ne-2497.phot.fake_13
+16730_N205-4163ne-2497.phot.fake_14
+16730_N205-4163ne-2497.phot.fake_15
+16730_N205-4163ne-2497.phot.fake_16
+16730_N205-4163ne-2497.phot.fake_17
+16730_N205-4163ne-2497.phot.fake_18
+16730_N205-4163ne-2497.phot.fake_19
+16730_N205-4163ne-2497.phot.fake_2
+16730_N205-4163ne-2497.phot.fake_20
+16730_N205-4163ne-2497.phot.fake_21
+16730_N205-4163ne-2497.phot.fake_22
+16730_N205-4163ne-2497.phot.fake_3
+16730_N205-4163ne-2497.phot.fake_4
+16730_N205-4163ne-2497.phot.fake_5
+16730_N205-4163ne-2497.phot.fake_6
+16730_N205-4163ne-2497.phot.fake_7
+16730_N205-4163ne-2497.phot.fake_8
+16730_N205-4163ne-2497.phot.fake_9
+16730_N205-4163ne-2497.phot.fits
+16730_N205-4163ne-2497.phot.gz
+16730_N205-4163ne-2497.phot.info
+16730_N205-4163ne-2497.st.fake.fits
+16730_N205-4163ne-2497.st.fits
+16730_N205-4163ne-2497_F606W.gst.matchfake
+16730_N205-4163ne-2497_F606W.gst_comp.dat
+16730_N205-4163ne-2497_F606W.gst_comp.ps
+16730_N205-4163ne-2497_F606W.st.matchfake
+16730_N205-4163ne-2497_F606W.st_comp.dat
+16730_N205-4163ne-2497_F606W.st_comp.ps
+16730_N205-4163ne-2497_F606W_F814W.gst_cmd.ps
+16730_N205-4163ne-2497_F606W_F814W.st_cmd.ps
+16730_N205-4163ne-2497_F814W.gst.matchfake
+16730_N205-4163ne-2497_F814W.gst_comp.dat
+16730_N205-4163ne-2497_F814W.gst_comp.ps
+16730_N205-4163ne-2497_F814W.st.matchfake
+16730_N205-4163ne-2497_F814W.st_comp.dat
+16730_N205-4163ne-2497_F814W.st_comp.ps
+16730_N205-4163ne-2497_F814W_drz.chip1.fits
+16730_N205-4163ne-2497_gst.match
+16730_N205-4163ne-2497_gst.matchfake
+16730_N205-4163ne-2497_gst.matchpars
+16730_N205-4163ne-2497_gst.sfh
+16730_N205-4163ne-2497_gst.sfh.cmd
+16730_N205-4163ne-2497_gst.sfh.cmd.ps
+16730_N205-4163ne-2497_gst.sfh.msg
+16730_N205-4163ne-2497_gst.zc
+16730_N205-4163ne-2497_gst_comp.tex
+16730_N205-4163ne-2497_st_comp.tex
+fake_1.lst
+fake_10.lst
+fake_11.lst
+fake_12.lst
+fake_13.lst
+fake_14.lst
+fake_15.lst
+fake_16.lst
+fake_17.lst
+fake_18.lst
+fake_19.lst
+fake_2.lst
+fake_20.lst
+fake_21.lst
+fake_22.lst
+fake_3.lst
+fake_4.lst
+fake_5.lst
+fake_6.lst
+fake_7.lst
+fake_8.lst
+fake_9.lst
+make_match.pro
+plot_cum_sfh.py
+test.png
+unweighted.png
+[akhila24@kix proc_default]$ cat 16730_N205-4163ne-2497_gst.zc
+Found 18 fits, best fit = 12075.4 (16730_N205-4163ne-2497_gst.sfh)
+Found 18 fits total
+
+Best fit:
+Av=0.360+0.060-0.022, IMF=0.000+0.000-0.000, dmod=24.460+0.060-0.000, dlogZ=0.050+0.000-0.000
+totalSF 3.316e+06 5.570e+04 5.390e+04
+ 6.60  6.65 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 6.65  6.70 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 6.70  6.75 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 6.75  6.80 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 6.80  6.85 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 6.85  6.90 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 6.90  6.95 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 6.95  7.00 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.00  7.05 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.05  7.10 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.10  7.15 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.15  7.20 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.20  7.25 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.25  7.30 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.30  7.35 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.35  7.40 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.40  7.45 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.45  7.50 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.50  7.55 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.55  7.60 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.60  7.65 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.65  7.70 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.70  7.75 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.75  7.80 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.80  7.85 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.85  7.90 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.90  7.95 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 7.95  8.00 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 8.00  8.05 24.52 0.0000e+00 5.5605e-05 -3.7341e-05 -1.950 -0.000 0.000 0.000 0.000 0.000 1.0000 0.0000 0.0000
+ 8.05  8.10 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 1.0000 -0.0001 0.0002
+ 8.10  8.15 24.52 4.4055e-05 -4.4055e-05 4.4055e-05 -1.950 0.000 0.000 0.000 0.000 0.000 1.0000 -0.0001 0.0002
+ 8.15  8.20 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 0.9998 0.0000 0.0000
+ 8.20  8.25 24.52 0.0000e+00 0.0000e+00 0.0000e+00 -1.950 0.000 0.000 0.000 0.000 0.000 0.9998 0.0000 0.0000
+ 8.25  8.30 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 0.9998 0.0000 0.0000
+ 8.30  8.35 24.52 0.0000e+00 0.0000e+00 0.0000e+00 -1.950 0.000 0.000 0.000 0.000 0.000 0.9998 0.0000 0.0000
+ 8.35  8.40 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 0.9998 0.0000 0.0000
+ 8.40  8.45 24.52 0.0000e+00 0.0000e+00 0.0000e+00  0.000 0.000 0.000 0.000 0.000 0.000 0.9998 0.0000 0.0000
+ 8.45  8.50 24.52 0.0000e+00 0.0000e+00 0.0000e+00 -1.750 0.000 0.049 0.000 0.000 0.000 0.9998 0.0000 0.0000
+ 8.50  8.55 24.52 0.0000e+00 1.9270e-06 0.0000e+00 -1.450 -0.000 0.300 0.000 0.000 0.000 0.9998 0.0000 0.0000
+ 8.55  8.60 24.52 1.1989e-05 -3.9519e-06 1.1989e-05 -1.465 0.055 0.085 0.035 -0.035 0.035 0.9998 0.0000 0.0001
+ 8.60  8.65 24.52 0.0000e+00 0.0000e+00 0.0000e+00 -1.100 0.169 0.004 0.288 0.000 0.110 0.9996 0.0000 0.0000
+ 8.65  8.70 24.52 0.0000e+00 2.0819e-05 0.0000e+00 -0.666 0.036 0.126 0.461 0.134 0.008 0.9996 0.0000 0.0000
+ 8.70  8.75 24.52 1.6823e-05 -4.9353e-06 1.6823e-05 -0.510 0.010 0.109 0.280 -0.005 0.280 0.9996 0.0000 0.0003
+ 8.75  8.80 24.52 7.7956e-07 4.4204e-06 7.7956e-07 -0.350 0.000 0.026 0.000 0.066 0.000 0.9993 0.0001 0.0001
+ 8.80  8.85 24.52 1.0194e-05 1.9838e-06 3.7627e-06 -0.350 0.000 0.000 0.000 0.000 0.000 0.9993 0.0000 0.0002
+ 8.85  8.90 24.52 7.3406e-06 1.0009e-06 7.3406e-06 -0.350 0.000 0.000 0.000 0.000 0.000 0.9991 0.0002 0.0002
+ 8.90  8.95 24.52 0.0000e+00 0.0000e+00 0.0000e+00 -0.450 0.000 0.000 0.000 0.000 0.000 0.9989 -0.0000 0.0004
+ 8.95  9.00 24.52 1.5083e-05 2.9849e-06 6.1969e-06 -0.493 0.143 -0.143 0.487 -0.487 0.487 0.9989 -0.0000 0.0004
+ 9.00  9.05 24.52 4.5642e-05 1.1583e-05 1.1400e-06 -0.663 0.154 -0.025 0.623 0.006 0.214 0.9984 0.0002 0.0004
+ 9.05  9.10 24.52 5.3798e-06 -1.1229e-06 5.3798e-06 -0.350 0.000 0.000 0.000 0.000 0.000 0.9967 0.0001 0.0008
+ 9.10  9.15 24.52 2.5082e-05 8.9462e-06 5.2101e-07 -0.350 0.000 0.000 0.000 0.000 0.000 0.9965 0.0000 0.0005
+ 9.15  9.20 24.52 5.0215e-05 1.8376e-05 1.3458e-06 -0.367 0.017 0.057 0.163 0.173 0.163 0.9953 0.0000 0.0008
+ 9.20  9.25 24.52 5.6064e-05 1.2371e-05 1.1813e-05 -1.643 0.243 0.307 0.630 0.170 -0.015 0.9927 0.0001 0.0017
+ 9.25  9.30 24.52 1.0483e-04 2.9473e-05 5.0229e-07 -1.183 0.049 0.186 0.784 0.015 0.014 0.9894 0.0014 0.0016
+ 9.30  9.35 24.52 1.8997e-04 7.6464e-05 2.4066e-05 -0.517 0.000 0.175 0.424 0.174 -0.030 0.9826 0.0017 0.0042
+ 9.35  9.40 24.52 1.3251e-04 2.3983e-05 3.3994e-05 -0.462 -0.034 0.282 0.362 0.235 -0.059 0.9686 0.0033 0.0100
+ 9.40  9.45 24.52 6.2633e-05 -2.4884e-05 6.2633e-05 -0.368 0.018 -0.001 0.082 -0.010 0.082 0.9577 0.0002 0.0094
+ 9.45  9.50 24.52 0.0000e+00 1.5451e-05 0.0000e+00 -0.350 0.000 0.175 0.000 0.115 0.000 0.9519 0.0029 0.0044
+ 9.50  9.55 24.52 0.0000e+00 0.0000e+00 0.0000e+00 -1.950 0.000 0.000 0.000 0.000 0.000 0.9519 0.0011 0.0044
+ 9.55  9.60 24.52 1.9340e-05 2.4669e-05 9.8146e-07 -0.350 -0.244 1.600 0.000 0.000 0.000 0.9519 0.0011 0.0057
+ 9.60  9.65 24.52 2.2221e-05 6.4351e-06 2.2221e-05 -1.950 -0.000 0.000 0.000 0.000 0.000 0.9494 -0.0000 0.0062
+ 9.65  9.70 24.52 0.0000e+00 2.7683e-05 0.0000e+00 -1.577 -0.004 0.373 0.432 -0.070 0.432 0.9462 0.0001 0.0037
+ 9.70  9.75 24.52 1.3225e-04 -5.4752e-06 1.1460e-04 -1.461 0.033 0.308 0.362 0.014 0.242 0.9462 0.0004 0.0059
+ 9.75  9.80 24.52 3.5032e-05 1.1952e-04 4.9984e-06 -1.574 0.066 0.203 0.329 0.001 0.086 0.9218 0.0151 0.0013
+ 9.80  9.85 24.52 1.6124e-04 2.4711e-05 1.6124e-04 -0.979 0.247 0.195 0.275 0.325 0.064 0.9145 0.0000 0.0242
+ 9.85  9.90 24.52 3.8442e-04 1.3901e-04 7.7007e-05 -1.426 0.187 0.318 0.561 0.119 0.060 0.8771 0.0048 0.0370
+ 9.90  9.95 24.52 3.7519e-04 1.9006e-04 3.2758e-05 -1.111 0.642 -0.260 0.679 -0.084 0.552 0.7769 0.0214 0.0372
+ 9.95 10.00 24.52 4.4926e-04 2.1079e-05 2.3565e-04 -1.208 0.122 0.308 0.731 0.161 0.023 0.6673 0.0075 0.0850
+10.00 10.05 24.52 3.5395e-04 1.3298e-04 5.6779e-05 -1.664 0.086 0.114 0.482 0.126 0.006 0.5199 0.0110 0.0533
+10.05 10.10 24.52 1.1844e-04 5.0961e-05 5.0787e-05 -1.636 -0.006 0.386 0.322 0.012 0.240 0.3897 0.0337 0.0431
+10.10 10.15 24.52 7.3556e-04 1.2986e-05 2.1225e-04 -0.797 0.000 0.090 0.446 0.046 -0.007 0.3408 0.0637 0.0389
+[akhila24@kix proc_default]$ ls *.ps
+16730_N205-4163ne-2497_F606W.gst_comp.ps  16730_N205-4163ne-2497_F606W_F814W.gst_cmd.ps  16730_N205-4163ne-2497_F814W.gst_comp.ps  16730_N205-4163ne-2497_gst.sfh.cmd.ps
+16730_N205-4163ne-2497_F606W.st_comp.ps   16730_N205-4163ne-2497_F606W_F814W.st_cmd.ps   16730_N205-4163ne-2497_F814W.st_comp.ps
+[akhila24@kix proc_default]$ ls *.png
+test.png  unweighted.png
+[akhila24@kix proc_default]$ display unweighted.png
+display: unable to open X server `' @ error/display.c/DisplayImageCommand/412.
+[akhila24@kix proc_default]$ pwd
+/astro/users/benw1/phat/ben/P2/m31_go16730_1/data/16730_N205-4163ne-2497/proc_default
+[akhila24@kix proc_default]$ exit
+logout
+Connection to kix.astro.washington.edu closed.
+(base) pisupati@Akhilas-MacBook-Pro-824 ~ % ssh -XY akhila24@kix.astro.washington.edu        
+Last login: Thu Jan 15 13:08:13 2026 from 10.19.87.101
+[akhila24@kix ~]$ cd /astro/users/benw1/phat/ben/P2/m31_go16730_1/data/16730_N205-4163ne-2497/proc_default
+[akhila24@kix proc_default]$ display unweighted.png
+display: unable to open X server `' @ error/display.c/DisplayImageCommand/412.
+[akhila24@kix proc_default]$ cd /astro/users/benw1/phat/ben/P2
+[akhila24@kix P2]$ ls -d *16730*
+m31_go16730_1  m31_go16730_1.sh  m31_go16730_2  m31_go16730_2.sh  m31_go16730_3  m31_go16730_3.sh
+[akhila24@kix P2]$ 
