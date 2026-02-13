@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-data = np.loadtxt("16730_M31-4985ne-2597_gst.zc", skiprows = 7)
+data = np.loadtxt("16730_N205-4163ne-2497_gst.zc", skiprows = 7)
 
 mean_age = (data[:,0] + data[:,1])/2
 age_endpt = data[:,0]
@@ -11,7 +11,7 @@ linear_age_startpt = 10**age_startpt
 linear_mean_age = 10**mean_age
 LMA_gyr = linear_mean_age / (1e9)
 
-#barswidth = np.abs(linear_age_endpt - linear_age_startpt)
+barswidth = np.abs(linear_age_endpt - linear_age_startpt) / 1e9
 
 cumulative = data[:,12]
 
@@ -25,15 +25,14 @@ verterr = np.array([errneg_csmf, errpos_csmf])
 
 plt.figure(figsize = (15,15), constrained_layout = True)
 
-plt.bar(LMA_gyr, cumulative, width = barswidth_gyr, align = 'center',
-        color = 'indigo', edgecolor = 'indigo', alpha = 0.3, label = 'M31 Cumulative Stellar Mass Fraction')
+plt.bar(LMA_gyr, cumulative, width = barswidth, align = 'center',
+        color = 'indigo', edgecolor = 'indigo', alpha = 0.3, label = 'N205 Cumulative Stellar Mass Fraction')
 
 plt.errorbar(LMA_gyr, cumulative, yerr = verterr, fmt = '.',markersize = 4,
              ecolor = 'teal',elinewidth = 1.2, capsize = 2, zorder = 3)
 
 plt.xlabel("Linear mean age (in Gyr)")
 plt.ylabel("Cumulative Stellar Mass Fraction")
-plt.title("M31 CSMF/Age")
+plt.title("N205 CSMF/Age")
 
 plt.show()
-

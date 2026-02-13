@@ -5,8 +5,6 @@ import numpy as np
 
 hdul = fits.open("16730_ANDIV-601sw-6792.gst.fits")
 data = hdul[1].data
-
-print(data.columns)
 hdul.close()
 
 keep = np.where((data['F606W_VEGA'] <50) & (data['F814W_VEGA']<50))
@@ -14,8 +12,15 @@ data2 = data[keep]
 color = data2['F606W_VEGA']-data2['F814W_VEGA']
 mag = data2['F814W_VEGA']
 
+fig, ax = plt.subplots(figsize = (15,15), constrained_layout = True)
 
-plt.figure()
-plt.scatter(color, mag, s=1)
+ax.set_xlabel("F606W_VEGA - F814_VEGA", fontfamily = 'serif', fontsize = 25)
+ax.set_ylabel("Apparent Magnitude", fontfamily = 'serif', fontsize = 25)
+ax.invert_yaxis()
+ax.set_title("ANDIV Color Magnitude Diagram", fontfamily = 'serif', fontsize = 30)
+
+graph = ax.hexbin(mag, color, gridsize = 100, bins = 'log', cmap = 'inferno')
+bar_color = fig.colorbar(graph, ax = ax)
+bar_color.set_label('amount')
 plt.show()
-#reverse y axis
+
