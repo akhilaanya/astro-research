@@ -22,7 +22,7 @@ verterr = np.array([errneg_sfh, errpos_sfh])
 
 plt.step(LMA_gyr, sfh, linestyle = '--')
 
-plt.gca().invert_xaxis()
+#plt.gca().invert_xaxis()
 
 #plt.ylim(10 ** -7, 10 ** -1)
 plt.yscale('log')

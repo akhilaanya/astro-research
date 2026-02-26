@@ -52,6 +52,8 @@ plt.fill_between(LMA_extended, errneg_extended, errpos_extended, color='green', 
 plt.plot(LMA_extended, errpos_extended, color='blue', linewidth=1.5, label='Upper Error Best Fit')
 plt.plot(LMA_extended, errneg_extended, color='yellow', linewidth=1.5, label='Lower Error Best Fit')
 
+plt.gca().invert_xaxis()
+
 plt.xlabel("Linear mean age (in Gyr)")
 plt.ylabel("Cumulative Stellar Mass Fraction")
 plt.title("N205 CSMF/Age")
