@@ -14,12 +14,12 @@ mag = data2['F814W_VEGA']
 
 fig, ax = plt.subplots(figsize=(15, 15), constrained_layout=True)
 
-ax.set_xlabel("F606W_VEGA - F814W_VEGA", fontfamily = 'serif', fontsize = 25)
-ax.set_ylabel("Apparent Magnitude", fontfamily = 'serif', fontsize = 25)
+ax.set_xlabel("Apparent Magnitude", fontfamily = 'serif', fontsize = 25)
+ax.set_ylabel("F606W_VEGA - F814W_VEGA", fontfamily = 'serif', fontsize = 25)
 ax.invert_yaxis()
 ax.set_title("M31 Color-Magnitude Diagram", fontfamily = 'serif', fontsize = 30)
 
-graph = ax.hexbin(mag, color, gridsize=100, bins = 'log', cmap = 'plasma')
+graph = ax.hexbin(color, mag, gridsize=100, bins = 'log', cmap = 'plasma')
 bar_color = fig.colorbar(graph, ax=ax)
 bar_color.set_label('amount')
 plt.show()

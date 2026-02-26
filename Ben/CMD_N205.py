@@ -1,4 +1,4 @@
-#CMD for ANDIV
+#CMD for N205
 from astropy.io import fits
 import matplotlib.pyplot as plt
 import numpy as np
@@ -19,7 +19,7 @@ ax.set_ylabel("Apparent Magnitude", fontfamily = 'serif', fontsize = 25)
 ax.invert_yaxis()
 ax.set_title("N205 Color Magnitude Diagram", fontfamily = 'serif', fontsize = 30)
 
-graph = ax.hexbin(mag, color, gridsize = 100, bins = 'log', cmap = 'magma')
+graph = ax.hexbin(color, mag, gridsize = 100, bins = 'log', cmap = 'magma')
 bar_color = fig.colorbar(graph, ax = ax)
 bar_color.set_label('amount')
 plt.show()
