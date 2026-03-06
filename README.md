@@ -8,3 +8,5 @@ Anyway, I handwrite my research notes because it's easier for me to understand t
 
 I must go back to my actual homework now, because this is a side tangent from when I inadvertently noticed a mistake in the graph I made this morning. But maybe it will be useful for me to write some brief change logs in this README.md, because I often forget what things are from and I have to go in and open the file, which takes up a lot of time! 
 
+### Changelog
+March 6, 2026: Updated the "columns" file for the fake.fits and .fits files for each field. 
