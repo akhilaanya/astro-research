@@ -1,0 +1,477 @@
+Last login: Thu Feb 26 06:34:11 on ttys000
+(base) pisupati@Akhilas-MacBook-Pro-824 ~ % ssh akhila24@kix.astro.washington.edu
+Last login: Thu Feb  5 12:27:32 2026 from 10.18.94.11
+[akhila24@kix ~]$ ls
+akhila
+[akhila24@kix ~]$ cd /astro/users/benw1/phat/ben/P2/m31_go16730_1/data/16730_N205-4163ne-2497/proc_default/
+[akhila24@kix proc_default]$ ls
+16730_N205-4163ne-2497.gst.fake.fits
+16730_N205-4163ne-2497.gst.fits
+16730_N205-4163ne-2497.phot.columns
+16730_N205-4163ne-2497.phot.fake.fits
+16730_N205-4163ne-2497.phot.fake_1
+16730_N205-4163ne-2497.phot.fake_10
+16730_N205-4163ne-2497.phot.fake_11
+16730_N205-4163ne-2497.phot.fake_12
+16730_N205-4163ne-2497.phot.fake_13
+16730_N205-4163ne-2497.phot.fake_14
+16730_N205-4163ne-2497.phot.fake_15
+16730_N205-4163ne-2497.phot.fake_16
+16730_N205-4163ne-2497.phot.fake_17
+16730_N205-4163ne-2497.phot.fake_18
+16730_N205-4163ne-2497.phot.fake_19
+16730_N205-4163ne-2497.phot.fake_2
+16730_N205-4163ne-2497.phot.fake_20
+16730_N205-4163ne-2497.phot.fake_21
+16730_N205-4163ne-2497.phot.fake_22
+16730_N205-4163ne-2497.phot.fake_3
+16730_N205-4163ne-2497.phot.fake_4
+16730_N205-4163ne-2497.phot.fake_5
+16730_N205-4163ne-2497.phot.fake_6
+16730_N205-4163ne-2497.phot.fake_7
+16730_N205-4163ne-2497.phot.fake_8
+16730_N205-4163ne-2497.phot.fake_9
+16730_N205-4163ne-2497.phot.fits
+16730_N205-4163ne-2497.phot.gz
+16730_N205-4163ne-2497.phot.info
+16730_N205-4163ne-2497.st.fake.fits
+16730_N205-4163ne-2497.st.fits
+16730_N205-4163ne-2497_F606W.gst.matchfake
+16730_N205-4163ne-2497_F606W.gst_comp.dat
+16730_N205-4163ne-2497_F606W.gst_comp.ps
+16730_N205-4163ne-2497_F606W.st.matchfake
+16730_N205-4163ne-2497_F606W.st_comp.dat
+16730_N205-4163ne-2497_F606W.st_comp.ps
+16730_N205-4163ne-2497_F606W_F814W.gst_cmd.ps
+16730_N205-4163ne-2497_F606W_F814W.st_cmd.ps
+16730_N205-4163ne-2497_F814W.gst.matchfake
+16730_N205-4163ne-2497_F814W.gst_comp.dat
+16730_N205-4163ne-2497_F814W.gst_comp.ps
+16730_N205-4163ne-2497_F814W.st.matchfake
+16730_N205-4163ne-2497_F814W.st_comp.dat
+16730_N205-4163ne-2497_F814W.st_comp.ps
+16730_N205-4163ne-2497_F814W_drz.chip1.fits
+16730_N205-4163ne-2497_gst.match
+16730_N205-4163ne-2497_gst.matchfake
+16730_N205-4163ne-2497_gst.matchpars
+16730_N205-4163ne-2497_gst.sfh
+16730_N205-4163ne-2497_gst.sfh.cmd
+16730_N205-4163ne-2497_gst.sfh.cmd.ps
+16730_N205-4163ne-2497_gst.sfh.msg
+16730_N205-4163ne-2497_gst.zc
+16730_N205-4163ne-2497_gst_comp.tex
+16730_N205-4163ne-2497_st_comp.tex
+fake_1.lst
+fake_10.lst
+fake_11.lst
+fake_12.lst
+fake_13.lst
+fake_14.lst
+fake_15.lst
+fake_16.lst
+fake_17.lst
+fake_18.lst
+fake_19.lst
+fake_2.lst
+fake_20.lst
+fake_21.lst
+fake_22.lst
+fake_3.lst
+fake_4.lst
+fake_5.lst
+fake_6.lst
+fake_7.lst
+fake_8.lst
+fake_9.lst
+make_match.pro
+plot_cum_sfh.py
+test.png
+unweighted.png
+[akhila24@kix proc_default]$ cd /astro/users/benw1/phat/ben/P2
+[akhila24@kix P2]$ ls
+12581                                 b11west               m312629                    perl.get_data
+15891_SMC-2584ne-14274_inputAST.txt   b11west.sh            m312629.sh                 perl.mkdirs
+15891_SMC-2983ne-12972_inputAST.txt   b11west_expfile       m312629.targ               perl.rename_fakelst
+15891_SMC-3192ne-8290.phot.columns    b12east               m3127.targ                 perl.run_aws
+15891_SMC-3435ne-13258_inputAST.txt   b12east.sh            m3128.targ                 perl.start_fakestars_with_lists_uploaded
+15891_SMC-3514se-8584_inputAST.txt    b12east_expfile       m3129.targ                 phast_optest1.sh
+15891_SMC-3669ne-13972_inputAST.txt   b12west               m313034                    phast_opttest1
+15891_SMC-3955ne-9818_inputAST.txt    b12west.sh            m313034.sh                 phast_opttest1.sh
+15891_SMC-3956ne-9632_inputAST.txt    b12west_expfile       m313034.targ               phast_sing1
+15891_SMC-8743se-11371_inputAST.txt   b13east               m313336                    phast_sing1.sh
+16235_SMC-10336se-14099_inputAST.txt  b13east.sh            m313336.sh                 phast_sing2
+16235_SMC-879ne-11082_inputAST.txt    b13east_expfile       m313336.targ               phast_sing2.sh
+6074ne                                b13west               m313539                    phast_test
+6074ne.sh                             b13west.sh            m313539.sh                 phast_test.sh
+Anten                                 b13west_expfile       m313539.targ               phast_test2
+B01east.targ                          b14east               m313639                    phast_test2.sh
+B01west.targ                          b14east.sh            m313639.sh                 phast_test3
+B02east.targ                          b14east_expfile       m313639.targ               phast_test3.sh
+B02west.targ                          b14east_expfile~      m314042                    phast_test4
+B03east.targ                          b14west               m314042.sh                 phast_test4.sh
+B03west.targ                          b14west.sh            m314042.targ               phast_test5
+B04east.targ                          b14west_expfile       m314046                    phast_test5.sh
+B04west.targ                          b15east               m314046.sh                 phast_test6
+B05east.targ                          b15east.sh            m314046.targ               phast_test6.sh
+B05west.targ                          b15f9_1orb            m3140_expfile              phast_test7
+B06east.targ                          b15f9_1orb.sh         m3141_expfile              phast_test7.sh
+B06west.targ                          b15west               m3142_expfile              phast_test8
+B07east.targ                          b15west.sh            m3143_expfile              phast_test8.sh
+B07west.targ                          b16east               m3144_expfile              phast_uvtest1
+B08east.targ                          b16east.sh            m3145_expfile              phast_uvtest1.sh
+B08west.targ                          b16east_expfile       m3146_expfile              phast_uvtest2
+B09east.targ                          b16east_expfile~      m31_go16730_1              phast_uvtest2.sh
+B09west.targ                          b16west               m31_go16730_1.sh           phast_uvtest3
+B10east.targ                          b16west.sh            m31_go16730_2              phast_uvtest3.sh
+B10west.targ                          b16west_expfile       m31_go16730_2.sh           phast_uvtest4
+B11east.targ                          b18east               m31_go16730_3              phast_uvtest4.sh
+B11west.targ                          b18east.sh            m31_go16730_3.sh           pipestart.commands
+B12east.targ                          b18east_expfile       m31_irsing1                pipestart_targ.commands
+B12west.targ                          b18west               m31_irsing1.sh             ref_decs
+B13east.targ                          b18west.sh            m31m33_mir1                ref_ims
+B13west.targ                          b18west_expfile       m31m33_mir1.sh             ref_ims2
+B14east.targ                          b19east               m3301                      ref_ras
+B14west.targ                          b19east.expfile       m3301.sh                   run_newconf.pl
+B15east.targ                          b19east.sh            m3301.targ                 scylla_1
+B15west.targ                          b19west               m3301_expfile              scylla_1.sh
+B16east.targ                          b19west.expfile       m3302                      scylla_2
+B16west.targ                          b19west.sh            m3302.sh                   scylla_2.sh
+B18east.targ                          b20east               m3302.targ                 scylla_3
+B18west.targ                          b20east.sh            m33024567                  scylla_3.sh
+B19east.targ                          b20east_badjbfe13mjq  m33024567.sh               scylla_4
+B19west.targ                          b20west               m33024567.targ             scylla_4.sh
+B20east.targ                          b20west.sh            m3302_expfile              scylla_5
+B20west.targ                          b20west_expfile       m3303                      scylla_5.sh
+B22east.targ                          b21east               m3303.sh                   scylla_6
+B22west.targ                          b21east.sh            m3303.targ                 scylla_6.sh
+B23east.targ                          b21west               m3303_expfile              scylla_7
+B23west.targ                          b21west.sh            m3303_explist              scylla_7.sh
+COS_M31_parallel.pos                  b22east               m3304.targ                 scylla_8
+COS_M31_parallel_fixed.pos            b22east.sh            m3304_expfile              scylla_8.sh
+DRZ                                   b22west               m3305_expfile              scylla_9
+Gripe                                 b22west.sh            m3306_expfile              scylla_9.sh
+M31-21_expfile                        b23east               m3307_expfile              scylla_91
+M31-22_expfile                        b23east.expfile       m33_fc                     scylla_91.sh
+M31-23_expfile                        b23east.sh            m33_fc.sh                  scylla_92
+M31-24_expfile                        b23west               m33_fc2                    scylla_92.sh
+M31-25_expfile                        b23west.expfile       m33_fc2.sh                 scylla_93
+M31-26_expfile                        b23west.sh            m33_fc3                    scylla_93.sh
+M31-27_expfile                        b28293031_uv1         m33_fc3.sh                 scylla_94
+M31-28_expfile                        b28293031_uv1.sh      m33_fc4                    scylla_94.sh
+M31-29_expfile                        b2829_1               m33_fc4.sh                 scylla_95
+M31-30_expfile                        b2829_1.sh            m33_fc5                    scylla_95.sh
+M31-31_expfile                        b2829_opt1            m33_fc5.sh                 scylla_96
+M31-32_expfile                        b2829_opt1.sh         m33_fc6                    scylla_96.sh
+M31-33_expfile                        b28_fields_opt        m33_fc6.sh                 scylla_97
+M31-34_expfile                        b28_opt1              mct_sing1                  scylla_97.sh
+M31-35_expfile                        b28_opt1.sh           mct_sing1.sh               scylla_98
+M31-36_expfile                        b28fields_opt.sh      mct_yumi                   scylla_98.sh
+M31-37_expfile                        b29_fields_opt        mct_yumi.sh                scylla_sing1
+M31-38_expfile                        b29fields_opt.sh      mct_yumi2                  scylla_sing1.sh
+M31-39_expfile                        b3031_opt1            mct_yumi2.sh               scylla_sing2
+M31-40_expfile                        b3031_opt1.sh         mir_luv1                   scylla_sing2.sh
+M31-41_expfile                        b30_fields_opt        mir_luv1.sh                sexa
+M31-42_expfile                        b30fields_opt.sh      mir_luv2                   sexa.sh
+M31-43_expfile                        b31_fields_opt        mir_luv2.sh                sn16coi17gax
+M31-44_expfile                        b31fields_opt.sh      mir_luv3                   sn16coi17gax.sh
+M31-45_expfile                        b32_fields_opt        mir_luv3.sh                sn2012fh
+M31-46_expfile                        b32fields_opt.sh      mir_luv4                   sn2012fh.sh
+M31-B20-EAST_expfile                  b33_fields_opt        mir_luv4.sh                sn2012fh_2
+M31-B22-EAST_expfile                  b33fields_opt.sh      mir_luv5                   sn2012fh_2.sh
+M31-B22-WEST_expfile                  b34_fields_opt        mir_luv5.sh                sn2013ge
+N6946.targ                            b34fields_opt.sh      mir_luv6                   sn2013ge.sh
+N6946_F606W_drz.chip1.fits            b35_fields_opt        mir_luv6.sh                sn2023ixf
+N6946_r4.phot.columns                 b35fields_opt.sh      mir_luv7                   sn2023ixf.sh
+Trash                                 build                 mir_luv7.sh                test.sh
+UV_Legacy                             check.list            mir_luv8                   test_1
+_Inline                               companions1           mir_luv8.sh                test_2
+agb_1                                 companions1.sh        mir_luv9                   tmp
+agb_1.sh                              companions2           mir_luv9.sh                tmp2
+and19_all                             companions2.sh        mir_luv91                  u8091_sing1
+and19_all.sh                          companions3           mir_luv91.sh               u8091_sing1.sh
+and19_sing1                           companions3.sh        mir_luv92                  u8091_sing2
+and19_sing1.sh                        companions_sing1      mir_luv92.sh               u8091_sing2.sh
+and19_singall                         companions_sing1.sh   mir_luv93.sh               u8091_test
+and19_singall.sh                      conf                  mir_luv94                  u8091_test.sh
+and9_1                                configuration         mir_luv94.sh               u8091_yumi
+and9_1.sh                             ddo190                mir_sing1                  u8091_yumi.sh
+antennae1                             ddo190.sh             mir_sing1.sh               ua292_mar
+antennae1.sh                          du.log                mir_sing2                  ua292_mar.sh
+antennae1.sh~                         du_20190514.log       mir_sing2.sh               ua292_sing
+awk.targ                              dusing.log            mir_sing3                  ua292_sing.sh
+b01east                               get_data.pl           mir_sing3.sh               ua292_yumi
+b01east.sh                            go12581               mir_sing4                  ua292_yumi.sh
+b01east_2                             go12581.sh            mir_sing4.sh               uv.lst
+b01east_2.sh                          go12581_sing          mir_sing5                  uv1
+b01east_expfile                       go12581_sing.sh       mir_sing5.sh               uv1.sh
+b01east_expfile~                      go15912               mir_sing6                  uv10
+b01west                               go15912.sh            mir_sing6.sh               uv10.sh
+b01west.sh                            go16185_1             mir_sing7                  uv11
+b01west_2                             go16185_1.sh          mir_sing7.sh               uv11.sh
+b01west_2.sh                          go16185_2             mir_sing8                  uv12
+b01west_expfile                       go16185_2.sh          mir_sing8.sh               uv12.sh
+b01west_expfile~                      go16191               mir_t1                     uv13
+b02east                               go16191_1.sh          mir_t1.sh                  uv13.sh
+b02east.sh                            go16191_2             mir_test2                  uv14
+b02east_expfile                       go16191_2.sh          mir_test2.sh               uv14.sh
+b02west                               go16191_3             mir_test3                  uv15
+b02west.sh                            go16191_3.sh          mir_test3.sh               uv15.sh
+b02west_expfile                       go16191_4             mir_test4                  uv16
+b03east                               go16191_4.sh          mir_test4.sh               uv16.sh
+b03east.sh                            go16191_5             mir_test5                  uv17
+b03east_2                             go16191_5.sh          mir_test5.sh               uv17.sh
+b03east_2.sh                          go16191_6             n1818                      uv18
+b03east_expfile                       go16191_6.sh          n1818.sh                   uv18.sh
+b03east_expfile~                      go16191_sing.sh       n1818_sing.sh              uv19
+b03west                               go16191_sing2.sh      n1818opt_sing              uv19.sh
+b03west.sh                            go16191_sing3         n1831                      uv2
+b03west_2                             go16191_sing3.sh      n1831.sh                   uv2.sh
+b03west_2.sh                          go16191_sing4         n1866                      uv3
+b03west_expfile                       go16191_sing4.sh      n1866.sh                   uv3.sh
+b03west_expfile~                      go16191_singvis       n1866sing                  uv4
+b04east                               go16191_singvis.sh    n1866sing.sh               uv4.sh
+b04east.sh                            go16293_1             n6822_1                    uv5
+b04east_expfile                       go16293_1.sh          n6822_1.sh                 uv5.sh
+b04west                               go16293_2             n6946_blair                uv6
+b04west.sh                            go16293_2.sh          n6946_blair.sh             uv6.sh
+b04west_expfile                       go16513               n6946_brick                uv7
+b05east                               go16513.sh            n6946_drz                  uv7.sh
+b05east.sh                            go16513_2             n6946_drz.sh               uv8
+b05east_expfile                       go16513_2.sh          n6946_dtransing1           uv8.sh
+b05west                               go16513_3             n6946_dtransing1.sh        uv9
+b05west.sh                            go16513_3.sh          n6946_dtransing2           uv9.sh
+b05west_expfile                       go16513_4             n6946_dtransing2.sh        uv_n3741check
+b06east                               go16513_4.sh          n6946_dtransing2.sh.weird  uv_n3741check.sh
+b06east.sh                            go16513_sing1         n6946_dtransing3           uv_sing1
+b06east_expfile                       go16513_sing1.sh      n6946_dtransing3.sh        uv_sing1.sh
+b06west                               go16513_sing2         n6946_explist              uv_sing2
+b06west.sh                            go16513_sing2.sh      n6946_fc                   uv_sing2.sh
+b06west_expfile                       ic63                  n6946_fc.sh                uv_sing2.sh~
+b07east                               ic63.sh               n6946_fc2                  uv_sing3
+b07east.sh                            kyros_1               n6946_fc2.sh               uv_sing3.sh
+b07east_expfile                       kyros_1.sh            n6946_fc3                  uv_sing4
+b07west                               leoa_sing             n6946_fc3.sh               uv_sing4.sh
+b07west.sh                            leoa_sing.sh          n6946_fix_3                uv_sing5
+b07west_expfile                       leop                  n6946_fix_3.sh             uv_sing5.sh
+b08east                               leop.sh               n6946_opt                  uv_sing6
+b08east.sh                            lmc_wfpc2_2           n6946_uv1                  uv_sing6.sh
+b08east_expfile                       lmc_wfpc2_2.sh        n6946_uv1.sh               uv_sing7
+b08west                               lmc_wfpc2_2.sh~       n6946_uv2                  uv_sing7.sh
+b08west.sh                            lmc_wfpc2_3           n6946_uv2.sh               uv_sing8
+b08west_expfile                       m101                  n6946_uv3                  uv_sing8.sh
+b09east                               m101.sh               n6946_uv3.sh               uv_sing9
+b09east.sh                            m15                   n6946brick.sh              uv_sing9.sh
+b09east_expfile                       m15.sh                n6946ir                    uv_wfpc2_1
+b09west                               m15.sh~               n6946ir.sh                 uv_wfpc2_1.sh
+b09west.sh                            m15all                n6946ir2                   wfpc2_sing
+b09west_expfile                       m15all.sh             n6946ir2.sh                wfpc2_sing.sh
+b10east                               m3121.targ            n6946ir3                   wlm
+b10east.sh                            m312125               n6946ir3.sh                wlm.sh
+b10east_expfile                       m312125.sh            n6946ir_sing               wlm_mir
+b10west                               m312125.targ          n6946ir_sing.sh            wlm_mir.sh
+b10west.sh                            m3122.targ            n6946opt.sh                wlm_sing
+b10west_expfile                       m3123.targ            n6946opt_sing              wlm_sing.sh
+b11east                               m3124.targ            n6946opt_sing.sh
+b11east.sh                            m3125.targ            perl.fix_columns
+b11east_expfile                       m3126.targ            perl.fix_columns~
+[akhila24@kix P2]$ cd m31_go16730_1
+[akhila24@kix m31_go16730_1]$ ls
+_Inline  aws.list  build  config  configuration  data  fakestar.events  log  perl.restart_fakestars
+[akhila24@kix m31_go16730_1]$ cd data
+[akhila24@kix data]$ ls
+16730_ANDIV-601sw-6792   16730_AndIII-3000sw-7954  16730_M31-4985ne-2597    16730_N221-1352sw-7124    16730_U288-6907sw-8816
+16730_ANDIV-6300se-6622  16730_AndIII-7865nw-8729  16730_N205-1657sw-22844  16730_N404-12503ne-26066  Unsorted
+16730_ANDIV-6847sw-8391  16730_M31-1928ne-22851    16730_N205-4163ne-2497   16730_N404-8842nw-25571   plot_cum_mass.py
+[akhila24@kix data]$ Connection to kix.astro.washington.edu closed by remote host.
+Connection to kix.astro.washington.edu closed.
+client_loop: send disconnect: Broken pipe
+(base) pisupati@Akhilas-MacBook-Pro-824 ~ % ssh akhila24@kix.astro.washington.edu
+Last login: Thu Feb 26 11:35:36 2026 from 10.19.91.240
+[akhila24@kix ~]$ cd /astro/users/benw1/phat/ben/P2
+[akhila24@kix P2]$ ls
+12581                                 b11west               m312629                    perl.get_data
+15891_SMC-2584ne-14274_inputAST.txt   b11west.sh            m312629.sh                 perl.mkdirs
+15891_SMC-2983ne-12972_inputAST.txt   b11west_expfile       m312629.targ               perl.rename_fakelst
+15891_SMC-3192ne-8290.phot.columns    b12east               m3127.targ                 perl.run_aws
+15891_SMC-3435ne-13258_inputAST.txt   b12east.sh            m3128.targ                 perl.start_fakestars_with_lists_uploaded
+15891_SMC-3514se-8584_inputAST.txt    b12east_expfile       m3129.targ                 phast_optest1.sh
+15891_SMC-3669ne-13972_inputAST.txt   b12west               m313034                    phast_opttest1
+15891_SMC-3955ne-9818_inputAST.txt    b12west.sh            m313034.sh                 phast_opttest1.sh
+15891_SMC-3956ne-9632_inputAST.txt    b12west_expfile       m313034.targ               phast_sing1
+15891_SMC-8743se-11371_inputAST.txt   b13east               m313336                    phast_sing1.sh
+16235_SMC-10336se-14099_inputAST.txt  b13east.sh            m313336.sh                 phast_sing2
+16235_SMC-879ne-11082_inputAST.txt    b13east_expfile       m313336.targ               phast_sing2.sh
+6074ne                                b13west               m313539                    phast_test
+6074ne.sh                             b13west.sh            m313539.sh                 phast_test.sh
+Anten                                 b13west_expfile       m313539.targ               phast_test2
+B01east.targ                          b14east               m313639                    phast_test2.sh
+B01west.targ                          b14east.sh            m313639.sh                 phast_test3
+B02east.targ                          b14east_expfile       m313639.targ               phast_test3.sh
+B02west.targ                          b14east_expfile~      m314042                    phast_test4
+B03east.targ                          b14west               m314042.sh                 phast_test4.sh
+B03west.targ                          b14west.sh            m314042.targ               phast_test5
+B04east.targ                          b14west_expfile       m314046                    phast_test5.sh
+B04west.targ                          b15east               m314046.sh                 phast_test6
+B05east.targ                          b15east.sh            m314046.targ               phast_test6.sh
+B05west.targ                          b15f9_1orb            m3140_expfile              phast_test7
+B06east.targ                          b15f9_1orb.sh         m3141_expfile              phast_test7.sh
+B06west.targ                          b15west               m3142_expfile              phast_test8
+B07east.targ                          b15west.sh            m3143_expfile              phast_test8.sh
+B07west.targ                          b16east               m3144_expfile              phast_uvtest1
+B08east.targ                          b16east.sh            m3145_expfile              phast_uvtest1.sh
+B08west.targ                          b16east_expfile       m3146_expfile              phast_uvtest2
+B09east.targ                          b16east_expfile~      m31_go16730_1              phast_uvtest2.sh
+B09west.targ                          b16west               m31_go16730_1.sh           phast_uvtest3
+B10east.targ                          b16west.sh            m31_go16730_2              phast_uvtest3.sh
+B10west.targ                          b16west_expfile       m31_go16730_2.sh           phast_uvtest4
+B11east.targ                          b18east               m31_go16730_3              phast_uvtest4.sh
+B11west.targ                          b18east.sh            m31_go16730_3.sh           pipestart.commands
+B12east.targ                          b18east_expfile       m31_irsing1                pipestart_targ.commands
+B12west.targ                          b18west               m31_irsing1.sh             ref_decs
+B13east.targ                          b18west.sh            m31m33_mir1                ref_ims
+B13west.targ                          b18west_expfile       m31m33_mir1.sh             ref_ims2
+B14east.targ                          b19east               m3301                      ref_ras
+B14west.targ                          b19east.expfile       m3301.sh                   run_newconf.pl
+B15east.targ                          b19east.sh            m3301.targ                 scylla_1
+B15west.targ                          b19west               m3301_expfile              scylla_1.sh
+B16east.targ                          b19west.expfile       m3302                      scylla_2
+B16west.targ                          b19west.sh            m3302.sh                   scylla_2.sh
+B18east.targ                          b20east               m3302.targ                 scylla_3
+B18west.targ                          b20east.sh            m33024567                  scylla_3.sh
+B19east.targ                          b20east_badjbfe13mjq  m33024567.sh               scylla_4
+B19west.targ                          b20west               m33024567.targ             scylla_4.sh
+B20east.targ                          b20west.sh            m3302_expfile              scylla_5
+B20west.targ                          b20west_expfile       m3303                      scylla_5.sh
+B22east.targ                          b21east               m3303.sh                   scylla_6
+B22west.targ                          b21east.sh            m3303.targ                 scylla_6.sh
+B23east.targ                          b21west               m3303_expfile              scylla_7
+B23west.targ                          b21west.sh            m3303_explist              scylla_7.sh
+COS_M31_parallel.pos                  b22east               m3304.targ                 scylla_8
+COS_M31_parallel_fixed.pos            b22east.sh            m3304_expfile              scylla_8.sh
+DRZ                                   b22west               m3305_expfile              scylla_9
+Gripe                                 b22west.sh            m3306_expfile              scylla_9.sh
+M31-21_expfile                        b23east               m3307_expfile              scylla_91
+M31-22_expfile                        b23east.expfile       m33_fc                     scylla_91.sh
+M31-23_expfile                        b23east.sh            m33_fc.sh                  scylla_92
+M31-24_expfile                        b23west               m33_fc2                    scylla_92.sh
+M31-25_expfile                        b23west.expfile       m33_fc2.sh                 scylla_93
+M31-26_expfile                        b23west.sh            m33_fc3                    scylla_93.sh
+M31-27_expfile                        b28293031_uv1         m33_fc3.sh                 scylla_94
+M31-28_expfile                        b28293031_uv1.sh      m33_fc4                    scylla_94.sh
+M31-29_expfile                        b2829_1               m33_fc4.sh                 scylla_95
+M31-30_expfile                        b2829_1.sh            m33_fc5                    scylla_95.sh
+M31-31_expfile                        b2829_opt1            m33_fc5.sh                 scylla_96
+M31-32_expfile                        b2829_opt1.sh         m33_fc6                    scylla_96.sh
+M31-33_expfile                        b28_fields_opt        m33_fc6.sh                 scylla_97
+M31-34_expfile                        b28_opt1              mct_sing1                  scylla_97.sh
+M31-35_expfile                        b28_opt1.sh           mct_sing1.sh               scylla_98
+M31-36_expfile                        b28fields_opt.sh      mct_yumi                   scylla_98.sh
+M31-37_expfile                        b29_fields_opt        mct_yumi.sh                scylla_sing1
+M31-38_expfile                        b29fields_opt.sh      mct_yumi2                  scylla_sing1.sh
+M31-39_expfile                        b3031_opt1            mct_yumi2.sh               scylla_sing2
+M31-40_expfile                        b3031_opt1.sh         mir_luv1                   scylla_sing2.sh
+M31-41_expfile                        b30_fields_opt        mir_luv1.sh                sexa
+M31-42_expfile                        b30fields_opt.sh      mir_luv2                   sexa.sh
+M31-43_expfile                        b31_fields_opt        mir_luv2.sh                sn16coi17gax
+M31-44_expfile                        b31fields_opt.sh      mir_luv3                   sn16coi17gax.sh
+M31-45_expfile                        b32_fields_opt        mir_luv3.sh                sn2012fh
+M31-46_expfile                        b32fields_opt.sh      mir_luv4                   sn2012fh.sh
+M31-B20-EAST_expfile                  b33_fields_opt        mir_luv4.sh                sn2012fh_2
+M31-B22-EAST_expfile                  b33fields_opt.sh      mir_luv5                   sn2012fh_2.sh
+M31-B22-WEST_expfile                  b34_fields_opt        mir_luv5.sh                sn2013ge
+N6946.targ                            b34fields_opt.sh      mir_luv6                   sn2013ge.sh
+N6946_F606W_drz.chip1.fits            b35_fields_opt        mir_luv6.sh                sn2023ixf
+N6946_r4.phot.columns                 b35fields_opt.sh      mir_luv7                   sn2023ixf.sh
+Trash                                 build                 mir_luv7.sh                test.sh
+UV_Legacy                             check.list            mir_luv8                   test_1
+_Inline                               companions1           mir_luv8.sh                test_2
+agb_1                                 companions1.sh        mir_luv9                   tmp
+agb_1.sh                              companions2           mir_luv9.sh                tmp2
+and19_all                             companions2.sh        mir_luv91                  u8091_sing1
+and19_all.sh                          companions3           mir_luv91.sh               u8091_sing1.sh
+and19_sing1                           companions3.sh        mir_luv92                  u8091_sing2
+and19_sing1.sh                        companions_sing1      mir_luv92.sh               u8091_sing2.sh
+and19_singall                         companions_sing1.sh   mir_luv93.sh               u8091_test
+and19_singall.sh                      conf                  mir_luv94                  u8091_test.sh
+and9_1                                configuration         mir_luv94.sh               u8091_yumi
+and9_1.sh                             ddo190                mir_sing1                  u8091_yumi.sh
+antennae1                             ddo190.sh             mir_sing1.sh               ua292_mar
+antennae1.sh                          du.log                mir_sing2                  ua292_mar.sh
+antennae1.sh~                         du_20190514.log       mir_sing2.sh               ua292_sing
+awk.targ                              dusing.log            mir_sing3                  ua292_sing.sh
+b01east                               get_data.pl           mir_sing3.sh               ua292_yumi
+b01east.sh                            go12581               mir_sing4                  ua292_yumi.sh
+b01east_2                             go12581.sh            mir_sing4.sh               uv.lst
+b01east_2.sh                          go12581_sing          mir_sing5                  uv1
+b01east_expfile                       go12581_sing.sh       mir_sing5.sh               uv1.sh
+b01east_expfile~                      go15912               mir_sing6                  uv10
+b01west                               go15912.sh            mir_sing6.sh               uv10.sh
+b01west.sh                            go16185_1             mir_sing7                  uv11
+b01west_2                             go16185_1.sh          mir_sing7.sh               uv11.sh
+b01west_2.sh                          go16185_2             mir_sing8                  uv12
+b01west_expfile                       go16185_2.sh          mir_sing8.sh               uv12.sh
+b01west_expfile~                      go16191               mir_t1                     uv13
+b02east                               go16191_1.sh          mir_t1.sh                  uv13.sh
+b02east.sh                            go16191_2             mir_test2                  uv14
+b02east_expfile                       go16191_2.sh          mir_test2.sh               uv14.sh
+b02west                               go16191_3             mir_test3                  uv15
+b02west.sh                            go16191_3.sh          mir_test3.sh               uv15.sh
+b02west_expfile                       go16191_4             mir_test4                  uv16
+b03east                               go16191_4.sh          mir_test4.sh               uv16.sh
+b03east.sh                            go16191_5             mir_test5                  uv17
+b03east_2                             go16191_5.sh          mir_test5.sh               uv17.sh
+b03east_2.sh                          go16191_6             n1818                      uv18
+b03east_expfile                       go16191_6.sh          n1818.sh                   uv18.sh
+b03east_expfile~                      go16191_sing.sh       n1818_sing.sh              uv19
+b03west                               go16191_sing2.sh      n1818opt_sing              uv19.sh
+b03west.sh                            go16191_sing3         n1831                      uv2
+b03west_2                             go16191_sing3.sh      n1831.sh                   uv2.sh
+b03west_2.sh                          go16191_sing4         n1866                      uv3
+b03west_expfile                       go16191_sing4.sh      n1866.sh                   uv3.sh
+b03west_expfile~                      go16191_singvis       n1866sing                  uv4
+b04east                               go16191_singvis.sh    n1866sing.sh               uv4.sh
+b04east.sh                            go16293_1             n6822_1                    uv5
+b04east_expfile                       go16293_1.sh          n6822_1.sh                 uv5.sh
+b04west                               go16293_2             n6946_blair                uv6
+b04west.sh                            go16293_2.sh          n6946_blair.sh             uv6.sh
+b04west_expfile                       go16513               n6946_brick                uv7
+b05east                               go16513.sh            n6946_drz                  uv7.sh
+b05east.sh                            go16513_2             n6946_drz.sh               uv8
+b05east_expfile                       go16513_2.sh          n6946_dtransing1           uv8.sh
+b05west                               go16513_3             n6946_dtransing1.sh        uv9
+b05west.sh                            go16513_3.sh          n6946_dtransing2           uv9.sh
+b05west_expfile                       go16513_4             n6946_dtransing2.sh        uv_n3741check
+b06east                               go16513_4.sh          n6946_dtransing2.sh.weird  uv_n3741check.sh
+b06east.sh                            go16513_sing1         n6946_dtransing3           uv_sing1
+b06east_expfile                       go16513_sing1.sh      n6946_dtransing3.sh        uv_sing1.sh
+b06west                               go16513_sing2         n6946_explist              uv_sing2
+b06west.sh                            go16513_sing2.sh      n6946_fc                   uv_sing2.sh
+b06west_expfile                       ic63                  n6946_fc.sh                uv_sing2.sh~
+b07east                               ic63.sh               n6946_fc2                  uv_sing3
+b07east.sh                            kyros_1               n6946_fc2.sh               uv_sing3.sh
+b07east_expfile                       kyros_1.sh            n6946_fc3                  uv_sing4
+b07west                               leoa_sing             n6946_fc3.sh               uv_sing4.sh
+b07west.sh                            leoa_sing.sh          n6946_fix_3                uv_sing5
+b07west_expfile                       leop                  n6946_fix_3.sh             uv_sing5.sh
+b08east                               leop.sh               n6946_opt                  uv_sing6
+b08east.sh                            lmc_wfpc2_2           n6946_uv1                  uv_sing6.sh
+b08east_expfile                       lmc_wfpc2_2.sh        n6946_uv1.sh               uv_sing7
+b08west                               lmc_wfpc2_2.sh~       n6946_uv2                  uv_sing7.sh
+b08west.sh                            lmc_wfpc2_3           n6946_uv2.sh               uv_sing8
+b08west_expfile                       m101                  n6946_uv3                  uv_sing8.sh
+b09east                               m101.sh               n6946_uv3.sh               uv_sing9
+b09east.sh                            m15                   n6946brick.sh              uv_sing9.sh
+b09east_expfile                       m15.sh                n6946ir                    uv_wfpc2_1
+b09west                               m15.sh~               n6946ir.sh                 uv_wfpc2_1.sh
+b09west.sh                            m15all                n6946ir2                   wfpc2_sing
+b09west_expfile                       m15all.sh             n6946ir2.sh                wfpc2_sing.sh
+b10east                               m3121.targ            n6946ir3                   wlm
+b10east.sh                            m312125               n6946ir3.sh                wlm.sh
+b10east_expfile                       m312125.sh            n6946ir_sing               wlm_mir
+b10west                               m312125.targ          n6946ir_sing.sh            wlm_mir.sh
+b10west.sh                            m3122.targ            n6946opt.sh                wlm_sing
+b10west_expfile                       m3123.targ            n6946opt_sing              wlm_sing.sh
+b11east                               m3124.targ            n6946opt_sing.sh
+b11east.sh                            m3125.targ            perl.fix_columns
+b11east_expfile                       m3126.targ            perl.fix_columns~
+[akhila24@kix P2]$ 
